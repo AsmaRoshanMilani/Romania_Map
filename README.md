@@ -5,8 +5,8 @@ This project is about implementing search algorithms (specifically UCS and  A*) 
 # Algorithms
 • Uniform-Cost Search Algorithms:
 Uniform-Cost Search is similar to Dijikstra’s algorithm. In this algorithm from the starting state, we will visit the adjacent states and will choose the least costly state then we will choose the next least costly state from the all un-visited and adjacent states of the visited states, in this way we will try to reach the goal state (note we won’t continue the path through a goal state ), even if we reach the goal state we will continue searching for other possible paths( if there are multiple goals). We will keep a priority queue that will give the least costly next state from all the adjacent states of visited states.               
-• A* Search Algorithm:
+• A* Search Algorithm:                                                                                                                                                                                                 
 A* Search algorithm is one of the best and popular technique used in path-finding and graph traversals.One major practical drawback is its space complexity, as it stores all generated nodes in memory.
 
-Uniform-cost expanded in all directions
+Uniform-cost expanded in all directions.                                                                                                                                                                               
 A* expands mainly toward the goal, but does ensure optimality
